@@ -1,5 +1,8 @@
 import numpy as np
-
+'''
+基础MRI模型
+y = EX + n
+'''
 # 定义图像空间信号 x
 x = np.array([3, 1])  # 可以更改为任何值
 
