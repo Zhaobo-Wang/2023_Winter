@@ -1,6 +1,8 @@
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-
+'''
+Basic CNN model
+'''
 # 定义输入形状，例如，64x64像素的图像，有3个通道（RGB）
 input_shape = (64, 64, 3)
 
